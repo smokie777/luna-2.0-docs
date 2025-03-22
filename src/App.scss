@@ -1,4 +1,9 @@
+body {
+  margin: 0;
+}
+
 #root {
+  --black-dark: #1c2026;
   --black: #23272f;
   --blue: #6883ba;
   --white: #f9f9f9;
@@ -6,7 +11,8 @@
   --green: #b0e298;
   background: var(--black);
   color: var(--white);
-  height: 100vh;
+  height: fit-content;
+  min-height: 100vh;
   font-family: "Nunito Sans", sans-serif;
 
   a {

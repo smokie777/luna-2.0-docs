@@ -6,6 +6,10 @@
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--black);
 
   .topnav_left {
     min-width: 16rem;

@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: sticky;
+  top: calc(4rem + 1px); /* height of top nav + top nav bottom border*/
 
   .section {
     display: flex;

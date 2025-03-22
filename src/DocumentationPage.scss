@@ -1,8 +1,32 @@
 .documentation_page {
   padding: 1rem;
   line-height: 1.75rem;
+  font-size: 1.1rem;
 
   strong {
     color: var(--blue);
+  }
+
+  code {
+    font-size: 0.85rem;
+    font-family: "Source Code Pro", monospace !important;
+  }
+
+  pre {
+    padding: 0.8rem;
+    width: fit-content;
+    border-radius: 1rem;
+    background: var(--black-dark);
+
+    code {
+      line-height: 0.1rem;
+    }
+  }
+
+  p > code {
+    background: var(--black-dark);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    color: var(--red);
   }
 }

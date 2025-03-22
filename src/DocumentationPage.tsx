@@ -23,7 +23,18 @@ export const DocumentationPage = ({ article }: DocumentationPageProps) => {
 
   return (
     <div className="documentation_page">
-      <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+      <ReactMarkdown
+        // rehype allows ReactMarkdown to embed html from .md files
+        rehypePlugins={[rehypeRaw]}
+        components={{
+          // make all markdown links open securely in a new tab
+          a: ({ href, children, ...props }) => (
+            <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+              {children}
+            </a>
+          ),
+        }}
+      >
         {markdownContent}
       </ReactMarkdown>
     </div>

@@ -15,7 +15,14 @@ export const content: Section[] = [
     ],
   },
   { "Running the App": ["Running the App"] },
-  { "Adding a new feature": ["Adding a new feature"] },
+  {
+    "Adding a new feature": [
+      "Adding a new feature",
+      "1. Control Panel",
+      "2. Flask API",
+      "3. Database Changes",
+    ],
+  },
   {
     Singing: [
       "Singing",

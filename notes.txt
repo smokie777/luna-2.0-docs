@@ -1,0 +1,12 @@
+LUNA 2.0 DOCS SPEC
+
+FEATURES
+1. Bootstrapping instructions
+  a. (consult luna-2.0 readme)
+2. Running instructions
+  a. (consult luna-2.0 readme)
+3. Workflow instructions
+  a. How to make and play a new song
+  b. How to add a new full-stack feature (control panel to database)
+4. System full stack overview
+  a. (consult luna-2.0 readme)

@@ -1,0 +1,54 @@
+.sidebar {
+  min-width: 16rem;
+  height: 100vh;
+  border-right: 1px solid var(--blue);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+
+    .article {
+      display: flex;
+      align-items: center;
+      height: 3rem;
+      padding-left: 1rem;
+      position: relative;
+      cursor: pointer;
+
+      &.article--bold {
+        padding-left: 0;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+
+      &.article--selected {
+        color: var(--blue);
+
+        .article_highlight {
+          background: var(--blue);
+          opacity: 0.1;
+        }
+      }
+
+      .article_highlight {
+        position: absolute;
+        right: 0.5rem;
+        height: 3rem;
+        width: 150%;
+        border-radius: 1rem;
+        opacity: 0;
+      }
+
+      &:not(.article--selected):hover {
+        .article_highlight {
+          background: var(--white);
+          opacity: 0.1;
+        }
+      }
+    }
+  }
+}

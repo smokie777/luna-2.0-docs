@@ -1,0 +1,23 @@
+#root {
+  --black: #23272f;
+  --blue: #6883ba;
+  --white: #f9f9f9;
+  --red: #e072a4;
+  --green: #b0e298;
+  background: var(--black);
+  color: var(--white);
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+
+  a {
+    color: var(--green);
+  }
+}
+
+.app {
+  .app_body {
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+  }
+}

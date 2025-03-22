@@ -5,8 +5,8 @@ import { TopNav } from "./TopNav";
 import { DocumentationPage } from "./DocumentationPage";
 
 const App = () => {
-  const [section, setSection] = useState("4. Play the song live!");
-  const [article, setArticle] = useState("4. Play the song live!");
+  const [section, setSection] = useState("1. Extract a song's vocals");
+  const [article, setArticle] = useState("1. Extract a song's vocals");
 
   return (
     <div className="app">

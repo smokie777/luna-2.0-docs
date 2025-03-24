@@ -8,7 +8,7 @@ export const content: Section[] = [
   {
     Bootstrapping: ["Bootstrapping"],
   },
-  { "Running the App": ["Running the App"] },
+  { Running: ["Running"] },
   {
     "Adding a new feature": [
       "Adding a new feature",

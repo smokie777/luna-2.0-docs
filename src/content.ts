@@ -6,13 +6,7 @@ export const content: Section[] = [
   { Overview: ["Overview"] },
   { "System Design": ["System Design"] },
   {
-    Bootstrapping: [
-      "Bootstrapping",
-      "WebSocket Server",
-      "Control Panel",
-      "Python Backend",
-      "Discord Bot",
-    ],
+    Bootstrapping: ["Bootstrapping"],
   },
   { "Running the App": ["Running the App"] },
   {

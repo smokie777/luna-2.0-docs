@@ -2,6 +2,7 @@ import "./DocumentationPage.scss";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
+import remarkGfm from "remark-gfm";
 
 interface DocumentationPageProps {
   article: string;
@@ -26,6 +27,7 @@ export const DocumentationPage = ({ article }: DocumentationPageProps) => {
       <ReactMarkdown
         // rehype allows ReactMarkdown to embed html from .md files
         rehypePlugins={[rehypeRaw]}
+        remarkPlugins={[remarkGfm]}
         components={{
           // make all markdown links open securely in a new tab
           a: ({ href, children, ...props }) => (

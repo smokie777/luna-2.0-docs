@@ -32,10 +32,16 @@
     }
   }
 
-  p > code {
+  p > code,
+  li > code,
+  td > code {
     background: var(--black-dark);
     padding: 0.4rem;
     border-radius: 0.5rem;
     color: var(--red);
+  }
+
+  th {
+    text-decoration: underline;
   }
 }

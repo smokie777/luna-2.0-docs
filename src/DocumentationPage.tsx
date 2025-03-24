@@ -27,6 +27,7 @@ export const DocumentationPage = ({ article }: DocumentationPageProps) => {
       <ReactMarkdown
         // rehype allows ReactMarkdown to embed html from .md files
         rehypePlugins={[rehypeRaw]}
+        // remark adds support for autolink literals, footnotes, strikethrough, tables, tasklists
         remarkPlugins={[remarkGfm]}
         components={{
           // make all markdown links open securely in a new tab

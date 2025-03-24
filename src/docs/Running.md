@@ -1,6 +1,6 @@
 # Running
 
-## How to run the luna-2.0 app locally
+### How to run the luna-2.0 app locally
 
 1. **Start WebSocket server**
    - `cd javascript/websocket; npm start`

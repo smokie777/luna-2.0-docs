@@ -5,8 +5,8 @@ import { TopNav } from "./TopNav";
 import { DocumentationPage } from "./DocumentationPage";
 
 const App = () => {
-  const [section, setSection] = useState("Bootstrapping");
-  const [article, setArticle] = useState("Bootstrapping");
+  const [section, setSection] = useState("Overview");
+  const [article, setArticle] = useState("Overview");
 
   return (
     <div className="app">

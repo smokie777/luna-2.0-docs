@@ -1,6 +1,6 @@
 # Bootstrapping
 
-## How to bootstrap the luna-2.0 app in a fresh environment
+### How to bootstrap the luna-2.0 app in a fresh environment
 
 - **Install required software:**
   | Software | Required Version |

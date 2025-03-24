@@ -16,7 +16,6 @@ export const DocumentationPage = ({ article }: DocumentationPageProps) => {
       .then((res) => fetch(res.default))
       .then((res) => res.text())
       .then((text) => {
-        console.log(text);
         setMarkdownContent(text);
       })
       .catch((err) => console.error(err));

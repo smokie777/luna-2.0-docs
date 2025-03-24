@@ -3,18 +3,11 @@ import { content } from "./content";
 import { classNames } from "./utils";
 
 interface SidebarProps {
-  section: string;
-  setSection: (i: string) => void;
   article: string;
   setArticle: (i: string) => void;
 }
 
-export const Sidebar = ({
-  section,
-  setSection,
-  article,
-  setArticle,
-}: SidebarProps) => {
+export const Sidebar = ({ article, setArticle }: SidebarProps) => {
   return (
     <div className="sidebar">
       {content.map((s, index) => (

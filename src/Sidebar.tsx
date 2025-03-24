@@ -27,7 +27,10 @@ export const Sidebar = ({
                 article === a ? "article--selected" : "",
               ])}
               key={index}
-              onClick={() => setArticle(a)}
+              onClick={() => {
+                window.scroll(0, 0);
+                setArticle(a);
+              }}
             >
               <div>{a}</div>
               <div className="article_highlight" />

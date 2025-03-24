@@ -1,5 +1,5 @@
 # Adding a new feature
 
-This page serves as a reference on how to add a full-stack feature.
+These pages serve as references on how to add new full-stack features.
 
-A great example of feature that spans the whole stack is the `Get DB Rows By Page` feature. This feature allows the user to click a button on the control panel to receive data from the SQLAlchemy database.
+An example of a feature that spans the whole stack is the `Get DB Rows By Page` feature. This feature allows the user to click a button on the control panel to receive data from the SQLAlchemy database.

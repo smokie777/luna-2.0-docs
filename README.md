@@ -1,9 +1,8 @@
-(this project is currently under construction)
+_(this project is currently under construction!)_
 
 This is the documentation for https://github.com/smokie777/luna-2.0
 
-This project exists for several reasons:
+This project is:
 
-1. To serve as a reference on how to understand, bootstrap, run, and operate the more complicated aspects of the project
-2. To serve as a sample or portfolio of my technical writing skills, as I'm interested in breaking into the technical writing field
-3. To allow others to more easily understand and collaborate on the luna-2.0 project, if interested
+1. A reference on understanding, bootstrapping, running, operating, and contributing to the luna-2.0 AI VTuber project
+2. A sample or portfolio of my technical writing skills, as I'm interested in breaking into the technical writing/documentation field

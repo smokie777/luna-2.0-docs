@@ -1,10 +1,10 @@
 .topnav {
   border-bottom: 1px solid var(--blue);
   width: 100%;
+  max-width: 75rem;
   height: 4rem;
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
   margin: auto;
   position: sticky;
   top: 0;
@@ -17,6 +17,7 @@
     align-items: center;
     font-size: 1.1rem;
     font-weight: bold;
+    padding-left: 1rem;
   }
 
   .topnav_right {
@@ -44,8 +45,8 @@
       }
 
       img {
-        width: 24px;
-        height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
       }
 
       &:hover {

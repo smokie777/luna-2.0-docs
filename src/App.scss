@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  height: 100vh;
 }
 
 #root {
@@ -9,11 +14,10 @@ body {
   --white: #f9f9f9;
   --red: #e072a4;
   --green: #b0e298;
-  background: var(--black);
   color: var(--white);
-  height: fit-content;
-  min-height: 100vh;
+  background: var(--black);
   font-family: "Nunito Sans", sans-serif;
+  height: 100vh;
 
   a {
     color: var(--green);
@@ -21,9 +25,11 @@ body {
 }
 
 .app {
+  background: var(--black);
+
   .app_body {
-    display: flex;
     margin: auto;
-    max-width: 1200px;
+    width: 75rem;
+    position: relative;
   }
 }

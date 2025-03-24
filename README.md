@@ -1,8 +1,8 @@
-_(this project is currently under construction!)_
+This is the documentation for https://github.com/smokie777/luna-2.0.
 
-This is the documentation for https://github.com/smokie777/luna-2.0
+It is deployed at https://smokie777.github.io/luna-2.0-docs/.
 
-This project is:
+My motivations for working on this project were as follows:
 
-1. A reference on understanding, bootstrapping, running, operating, and contributing to the luna-2.0 AI VTuber project
-2. A sample or portfolio of my technical writing skills, as I'm interested in breaking into the technical writing/documentation field
+1. To create a reference for understanding, bootstrapping, running, operating, and contributing to the luna-2.0 AI VTuber project
+2. To create a sample or portfolio of my technical writing/documentation engineering skills, as I'm interested in breaking into these fields.

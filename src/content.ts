@@ -17,6 +17,7 @@ export const content: Section[] = [
       "3. Database Changes",
     ],
   },
+  { "Fine-Tuning GPT-3.5": ["Fine-Tuning GPT-3.5"] },
   {
     Singing: [
       "Singing",

@@ -23,7 +23,7 @@ The WebSocket server is a straightforward, lightweight server written in TypeScr
 - Sending data between React apps running in different windows
   - Example: pressing a button on the Control Panel to trigger an animation in the Animation app
 - Sending data unilaterally from a Python backend module to a React frontend app
-  - Example: sending real-time gift sub events received on the backend to the frontend, so the Animation app can play an animation
+  - Example: sending real-time gift sub events received on the backend to the frontend, so that the Animation app can play an animation
 
 ## **Python Backend**
 
@@ -61,20 +61,20 @@ The Python backend comprises many different modules. All AI functionality lives 
     3.  Process !commands in the live chat
     4.  Auto ban/timeout users
 - **Discord bot**
-  - This module is separate from the rest of the Python backend, and is not included in the one centralized command for running all Python backend moduels>
-  - The discord bot has various functionality:
-    1. Allow users to chat with luna-2.0 via text messages
-    2. Allow users to chat with luna-2.0 via voice in a voice channel (uses SeaVoice for transcription)
-    3. Generate automated going live messages
+  - This module is separate from the rest of the Python backend, and is not included in the one centralized command for running all Python backend modules.
+  - The discord bot has various functionalities:
+    1. Users can chat with luna-2.0 via text messages
+    2. Users can speak with luna-2.0 via voice in voice channels (uses SeaVoice for transcription)
+    3. The bot can generate automated going live messages
 - **Testing**
   - The backend has a unit testing suite written using Python's unittest module
 - **VTube Studio (VTS) Integration**
   - Currently, there is only a primitive system where Python can trigger key presses which will in turn trigger VTS hotkeys/actions.
   - Ideally, there would be a proper VTS integration, but unfortunately the VTS authentication system is mind blowingly difficult to work with
 - **Singing functionality**
-  - See the singing section for more details on this
+  - See the singing section for more details
 
-### The total costs for running this project are as follows:
+### The estimated monthly costs of running this project are:
 
 | Service             | $/Month |
 | ------------------- | ------- |

@@ -15,6 +15,7 @@ export const content: Section[] = [
       "1. Control Panel",
       "2. Flask API",
       "3. Database Changes",
+      "4. WebSocket Changes",
     ],
   },
   { "Fine-Tuning GPT-3.5": ["Fine-Tuning GPT-3.5"] },

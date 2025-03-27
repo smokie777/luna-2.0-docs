@@ -5,9 +5,14 @@ import { classNames } from "./utils";
 interface SidebarProps {
   article: string;
   setArticle: (i: string) => void;
+  scrollToDocumentationPageTop: () => void;
 }
 
-export const Sidebar = ({ article, setArticle }: SidebarProps) => {
+export const Sidebar = ({
+  article,
+  setArticle,
+  scrollToDocumentationPageTop,
+}: SidebarProps) => {
   return (
     <div className="sidebar">
       {content.map((s, index) => (
@@ -21,8 +26,8 @@ export const Sidebar = ({ article, setArticle }: SidebarProps) => {
               ])}
               key={index}
               onClick={() => {
-                window.scroll(0, 0);
                 setArticle(a);
+                scrollToDocumentationPageTop();
               }}
             >
               <div>{a}</div>

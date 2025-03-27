@@ -14,7 +14,7 @@
    - If this command fails, you may need to navigate to Applications/python and run the install certificates script
 5. **Setup local streaming environment**
 
-   - Open OBS and start virtual camera for the vtuber's idle animation
+   - Open OBS and start virtual camera to enable the vtuber's idle animation
    - Open VTube studio, and enable "preview speech"
    - Open windows media player (for eleven labs tts)
    - Open 3 windows of firefox:
@@ -24,6 +24,6 @@
      | Stream Overlay | http://localhost:3001/overlay or http://localhost:3001/overlaywithtimer |
      | Stream Animations | http://localhost:3001/animations |
    - Open Spotify/YouTube and play some music
-   - Open twitch chat popout
-   - Open streamlabs, and click Go Live!
+   - Open Twitch chat popout
+   - Open Streamlabs, and click Go Live!
    - Send `@luna !live` in Discord to generate an automated going live message

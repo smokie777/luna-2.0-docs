@@ -1,6 +1,6 @@
 # Fine-Tuning GPT-3.5
 
-### Fine-tuned GPT-3.5 does a remarkable job of generating responses in the same tone & personality as the training dataset.
+### Fine-tuned GPT-3.5 does a remarkable job of generating responses in the same tone & personality as the messages in the training dataset.
 
 1. Follow the instructions in the [gen_openai_finetuning_dataset.py](https://github.com/smokie777/luna-2.0/blob/30fac96b08978be34af05589f6bb2e0a5f6e28f9/python/scripts/gen_openai_finetuning_dataset.py) file to generate a dataset in the correct format for fine-tuning.
 

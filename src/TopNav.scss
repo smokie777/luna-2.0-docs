@@ -5,9 +5,9 @@
   height: 4rem;
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
   background: var(--black);
 

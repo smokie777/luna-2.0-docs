@@ -1,16 +1,15 @@
 @use "mixins";
 
 .documentation_page {
-  padding: 1rem 2rem;
-  line-height: 1.75rem;
-  font-size: 1.1rem;
-  border-left: 1px solid var(--blue);
   position: absolute;
   left: 19rem; // width of sidebar
   overflow-y: scroll;
   @include mixins.hide-scrollbar;
-
+  border-left: 1px solid var(--blue);
+  padding: 1rem 2rem;
   height: calc(100vh - 4rem);
+  line-height: 1.75rem;
+  font-size: 1.1rem;
 
   strong {
     color: var(--blue);
